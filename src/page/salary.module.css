@@ -1,0 +1,23 @@
+/* .inputWrapper {
+  position: absolute;
+} */
+
+.buttonWrapper {
+  position: relative;
+  top: 50px;
+  right: 135px;
+}
+
+.salaryInputWrapper input {
+  margin: 0 200px 20px 200px
+}
+
+
+@media only screen and (max-width: 600px) {
+  .inputWrapper {
+    margin-top: 50px;
+  }
+  .salaryInputWrapper input {
+    margin: 0 0 20px 0
+  }
+}

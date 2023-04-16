@@ -1,0 +1,14 @@
+.inputBox {
+  border: none;
+  background-color: transparent;
+  width: 350px;
+  height: 30px;
+  font-size: 30px;
+  outline: none;
+  border-bottom: 1px solid var(--light-violet);
+}
+
+
+.inputBox:focus {
+  border-bottom: 1px solid var(--violet);
+}

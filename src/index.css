@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'formula';
+  src: url('./assets/font/formula.ttf');
+}
+
+:root {
+  --violet: rgb(40, 4, 196);
+  --light-violet: rgb(197, 185, 251);
+}
+
+body {
+  margin: 0;
+  font-family: 'formula';
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--violet);
+  background-size: cover;
+  background-position: unset;
+  background-image: url('https://images.typeform.com/images/w5F3q6pWX23f/background/large');
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-size: cover;
+    background-position: right;
+  }
+}
